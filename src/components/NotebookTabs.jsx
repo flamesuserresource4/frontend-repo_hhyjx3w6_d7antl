@@ -153,6 +153,7 @@ const NotebookTabs = () => {
                 </motion.form>
               )}
             </AnimatePresence>
+          </div>
         </div>
       </div>
     </section>
