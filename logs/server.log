@@ -1,0 +1,77 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 245 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.17.85:3000/
+12:36:00 AM [vite] Pre-transform error: Transform failed with 2 errors:
+/home/workspace/src/components/NotebookTabs.jsx:158:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/NotebookTabs.jsx:163:0: ERROR: Unexpected end of file before a closing "section" tag
+12:36:00 AM [vite] Internal server error: Transform failed with 2 errors:
+/home/workspace/src/components/NotebookTabs.jsx:158:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/NotebookTabs.jsx:163:0: ERROR: Unexpected end of file before a closing "section" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/NotebookTabs.jsx:158:6
+  
+  Unexpected closing "section" tag does not match opening "div" tag
+  156|          </div>
+  157|        </div>
+  158|      </section>
+     |        ^
+  159|    );
+  160|  };
+  
+  Unexpected end of file before a closing "section" tag
+  161|  
+  162|  export default NotebookTabs;
+  163|  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+12:36:00 AM [vite] ✨ new dependencies optimized: @splinetool/react-spline, lucide-react, framer-motion
+12:36:00 AM [vite] ✨ optimized dependencies changed. reloading
+12:36:34 AM [vite] Pre-transform error: Transform failed with 2 errors:
+/home/workspace/src/components/NotebookTabs.jsx:158:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/NotebookTabs.jsx:163:0: ERROR: Unexpected end of file before a closing "section" tag
+12:36:48 AM [vite] Internal server error: Transform failed with 2 errors:
+/home/workspace/src/components/NotebookTabs.jsx:158:6: ERROR: Unexpected closing "section" tag does not match opening "div" tag
+/home/workspace/src/components/NotebookTabs.jsx:163:0: ERROR: Unexpected end of file before a closing "section" tag
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/NotebookTabs.jsx:158:6
+  
+  Unexpected closing "section" tag does not match opening "div" tag
+  156|          </div>
+  157|        </div>
+  158|      </section>
+     |        ^
+  159|    );
+  160|  };
+  
+  Unexpected end of file before a closing "section" tag
+  161|  
+  162|  export default NotebookTabs;
+  163|  
+     |  ^
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
